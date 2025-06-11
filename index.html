@@ -2,8 +2,9 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" href="/assets/favicon-32x32.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Caroline Viana 💖</title>
+  <title>Caroline Viana 💙</title>
   <style>
     body {
       margin: 0;
@@ -193,7 +194,7 @@
 </head>
 <body>
   <div class="login-container">
-    <h2>Caroline 💖</h2>
+    <h2>Caroline Viana</h2>
     <input type="text" id="username" placeholder="Usuário" autocomplete="off" />
     <input type="password" id="password" placeholder="Senha" autocomplete="off" />
     <button onclick="login()">Entrar</button>
@@ -201,19 +202,19 @@
 
   <div id="welcome">Bem-vinda, Minha Futura Fisioterapeuta 💖</div>
   <div id="final-message">Você é especial para mim 💘</div>
-  <div id="end-message">TE VEJO SÁBADO, GATINHA!.</div>
+  <div id="end-message"> <p> Espero que tenha Gostado! </p>Te vejo Sábado.</div>
 
   <!-- Fotos -->
   <img id="special-photo" src="img/Caroline.png" alt="Foto Especial" class="floating-photo" />
   <img id="photo-2" src="img/Caroline1.png" alt="Foto 2" class="floating-photo" />
   <img id="photo-3" src="img/Caroline2.png" alt="Foto 3" class="floating-photo" />
   <img id="photo-4" src="img/Caroline3.png" alt="Foto 4" class="floating-photo" />
-  <img id="photo-5" src="img/Caroline3.png" alt="Foto 5" class="floating-photo" />
-  <img id="photo-6" src="img/Caroline3.png" alt="Foto 6" class="floating-photo" />
-  <img id="photo-7" src="img/Caroline3.png" alt="Foto 7" class="floating-photo" />
-  <img id="photo-8" src="img/Caroline3.png" alt="Foto 8" class="floating-photo" />
-  <img id="photo-9" src="img/Caroline3.png" alt="Foto 9" class="floating-photo" />
-  <img id="photo-10" src="img/Caroline3.png" alt="Foto 10" class="floating-photo" />
+  <img id="photo-5" src="img/Caroline4.png" alt="Foto 5" class="floating-photo" />
+  <img id="photo-6" src="img/Caroline5.png" alt="Foto 6" class="floating-photo" />
+  <img id="photo-7" src="img/Caroline6.png" alt="Foto 7" class="floating-photo" />
+  <img id="photo-8" src="img/Caroline7.png" alt="Foto 8" class="floating-photo" />
+  <img id="photo-9" src="img/Caroline8.png" alt="Foto 9" class="floating-photo" />
+  <img id="photo-10" src="img/Caroline9.png" alt="Foto 10" class="floating-photo" />
 
   <!-- Música de fundo -->
   <audio id="love-music" src="music/musica.mp3" loop></audio>
@@ -223,13 +224,13 @@
       "Gosto de você mais do que imaginei ser possível. 💘",
       "Seu sorriso melhora o meu dia. 😊❤️",
       "Você me faz muito bem. 💖",
-      "Com você, tudo é mais leve. 💞",
+      "Caroline, meu coração te escolheu mais rápido que o Chapéu Seletor escolhe um corvino. 🎩⚡💙",
       "Só de te ver, meu coração sorri. 🥰💕",
       "Você é meu lugar favorito. 🏡❤️",
       "Quero estar ao seu lado. 💑💗",
       "Você faz meu mundo mais bonito. 🌎💓",
       "Meu pensamento sempre acaba em você. 💭💘",
-      "Adoro a forma como você me faz sentir. 💓😊",
+      "Nem o Vira-Tempo me faria querer reviver um momento sem você. ⏳💖🕰️",
       "Você é meu ponto de paz. 🕊️❤️",
       "Me encanto mais por você a cada dia. 🌹💕",
       "Só queria estar com você agora. 🤗💖",
@@ -237,14 +238,17 @@
       "Não sei explicar, só sei que gosto de você. ❣️",
       "Com você, tudo faz mais sentido. 🔗💗",
       "Meu coração escolheu você. 💓🎯",
-      "Estar com você é como estar em casa. 🏠💞",
+      "Se eu tivesse um Vira-Tempo, viveria o momento em que te conheci mil vezes. ⏳💞",
       "Te ter por perto é um presente. 🎁❤️",
-      "Você é especial pra mim, de um jeito único. ✨💘"
+      "Você é especial pra mim, de um jeito único. ✨💘",
+      "Depois de todo esse tempo, - Sempre 🖤⚡",
+      "Se eu tivesse a Pedra da Ressurreição, te escolheria de novo em todas as vidas. 💎💞♾️",
+      "Meu coração acelera mais que vassoura em jogo de Quadribol quando te vejo. 🧹💓🏆"
     ];
 
     const affirmations = [
       "Você é incrível! 🌟",
-      "Confie em si mesmo! 💪",
+      "Confie em si mesma! 💪",
       "Você merece o melhor! ✨",
       "Seja gentil consigo! 💖",
       "Você é capaz! 🚀",
@@ -293,7 +297,7 @@
           startRomanticShow();
         }, 3000);
       } else {
-        alert("Ops! tenta de novo meu bem!");
+        alert("Ops, parece que errou suas credenciais, meu bem!💙");
       }
     }
 
@@ -435,7 +439,7 @@
       floatingAnimation(photo7, 27000, 14000);
       floatingAnimation(photo8, 29000, 16000);
       floatingAnimation(photo9, 31000, 18000);
-      floatingAnimation(photo10, 33000, 20000);
+      floatingAnimation(photo10, 31000, 20000);
     }
 
     function showEndMessage() {
