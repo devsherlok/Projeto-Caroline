@@ -217,7 +217,7 @@
   <img id="photo-10" src="img/Caroline9.png" alt="Foto 10" class="floating-photo" />
 
   <!-- Música de fundo -->
-  <audio id="love-music" src="music/musica.mp3" loop></audio>
+  <audio id="love-music" src="music/alianca.mp3" loop></audio>
 
   <script>
     const messages = [
@@ -324,7 +324,7 @@
 
       document.body.appendChild(balloon);
 
-      const animationDuration = 8000;
+      const animationDuration = 7000;
       let startTime = null;
       const startLeft = parseFloat(balloon.style.left);
       const startTop = 100;
@@ -361,7 +361,7 @@
         count++;
         if (count >= maxBalloons) {
           clearInterval(balloonInterval);
-          setTimeout(showFloatingPhotos, 12000);
+          setTimeout(showFloatingPhotos, 11500);
         }
       }, 900);
     }
@@ -431,15 +431,15 @@
       const photo10 = document.getElementById("photo-10");
 
       floatingAnimation(photo1, 15000, 0);
-      floatingAnimation(photo2, 17000, 2000);
-      floatingAnimation(photo3, 19000, 4000);
-      floatingAnimation(photo4, 21000, 6000);
-      floatingAnimation(photo5, 23000, 8000);
-      floatingAnimation(photo6, 25000, 12000);
-      floatingAnimation(photo7, 27000, 14000);
-      floatingAnimation(photo8, 29000, 16000);
-      floatingAnimation(photo9, 31000, 18000);
-      floatingAnimation(photo10, 31000, 20000);
+      floatingAnimation(photo2, 17000, 5000);
+      floatingAnimation(photo3, 19000, 5000);
+      floatingAnimation(photo4, 21000, 5000);
+      floatingAnimation(photo5, 23000, 5000);
+      floatingAnimation(photo6, 25000, 5000);
+      floatingAnimation(photo7, 27000, 5000);
+      floatingAnimation(photo8, 29000, 5000);
+      floatingAnimation(photo9, 31000, 5000);
+      floatingAnimation(photo10, 33000, 5000);
     }
 
     function showEndMessage() {
