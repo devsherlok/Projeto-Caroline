@@ -324,7 +324,7 @@
 
       document.body.appendChild(balloon);
 
-      const animationDuration = 7000;
+      const animationDuration = 8000;
       let startTime = null;
       const startLeft = parseFloat(balloon.style.left);
       const startTop = 100;
@@ -361,7 +361,7 @@
         count++;
         if (count >= maxBalloons) {
           clearInterval(balloonInterval);
-          setTimeout(showFloatingPhotos, 11500);
+          setTimeout(showFloatingPhotos, 12000);
         }
       }, 900);
     }
@@ -431,15 +431,15 @@
       const photo10 = document.getElementById("photo-10");
 
       floatingAnimation(photo1, 15000, 0);
-      floatingAnimation(photo2, 17000, 5000);
-      floatingAnimation(photo3, 19000, 5000);
-      floatingAnimation(photo4, 21000, 5000);
-      floatingAnimation(photo5, 23000, 5000);
-      floatingAnimation(photo6, 25000, 5000);
-      floatingAnimation(photo7, 27000, 5000);
-      floatingAnimation(photo8, 29000, 5000);
-      floatingAnimation(photo9, 31000, 5000);
-      floatingAnimation(photo10, 33000, 5000);
+      floatingAnimation(photo2, 17000, 3000);
+      floatingAnimation(photo3, 19000, 6000);
+      floatingAnimation(photo4, 21000, 9000);
+      floatingAnimation(photo5, 23000, 12000);
+      floatingAnimation(photo6, 25000, 15000);
+      floatingAnimation(photo7, 27000, 18000);
+      floatingAnimation(photo8, 29000, 21000);
+      floatingAnimation(photo9, 31000, 24000);
+      floatingAnimation(photo10, 33000, 27000);
     }
 
     function showEndMessage() {
